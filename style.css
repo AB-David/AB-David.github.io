@@ -16,20 +16,28 @@ h1 {
 
 .bio-link {
     list-style: none;
-    padding: 50px;
-    margin: 10px;
+    padding: 0 25px 0 0;
+    margin: 1px;
+}
+
+.bio-link > a {
+    color: black;
 }
 
 .grid-wrapper {
     display: grid;
     grid-template-columns: 3fr 7fr;
-    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .grid-item {
-    flex-direction: column;
+    flex-direction: row;
+    -ms-wrap-flow: both
 }
 
-.bio-image { 
-    width: 290px;
-}
+.bio-image {
+        display: block;
+        float: left;
+        grid-column: 1 / span 3;
+        width: 280px;
+        -ms-wrap-flow: both
+      }
