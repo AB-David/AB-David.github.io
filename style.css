@@ -41,3 +41,15 @@ h1 {
         width: 280px;
         -ms-wrap-flow: both
       }
+
+
+
+.projects-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}   
+
+.projects-grid-item{
+
+}
