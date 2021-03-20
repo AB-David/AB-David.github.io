@@ -53,3 +53,12 @@ h1 {
 .projects-grid-item{
 
 }
+
+h4.capitalize {
+    text-transform: capitalize;
+  }
+
+.card-body img {
+width:100%;
+
+}
