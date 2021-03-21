@@ -1,17 +1,17 @@
 let projects = [
     {
         repo:"Real-Time-Bus-Tracker",
-        image:"",
+        image: "./assets/img/bus.png",
         desc:"Built and manipulated maps through asyncronous programming to show the location of buses in Boston in real time by retrieving that data from MBTA. Currently working on addong the ability to see available seats on each bus as well "
     },
     {
         repo:"Eyes-movement",
-        image:"",
+        image:"./assets/img/eyes.png",
         desc:"Eyes movement that tracks the user's mouse pointer on the display while using JavaScript to set the web page styles."
     },
     {
         repo:"Ball-factory",
-        image:"",
+        image:"./assets/img/ball_factory.gif",
         desc:"3"
     },
     {

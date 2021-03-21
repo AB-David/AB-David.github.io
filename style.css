@@ -58,7 +58,7 @@ h4.capitalize {
     text-transform: capitalize;
   }
 
-.card-body img {
+.card > img {
 width:100%;
-
+height:225px;
 }
