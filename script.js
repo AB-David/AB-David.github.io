@@ -2,7 +2,7 @@ let projects = [
     {
         repo:"Real-Time-Bus-Tracker",
         image: "./assets/img/bus.png",
-        desc:"Built and manipulated maps through asyncronous programming to show the location of buses in Boston in real time by retrieving that data from MBTA. Currently working on addong the ability to see available seats on each bus as well "
+        desc:"Manipulated maps through asyncronous programming to show in real time the location of a bus in Boston by retrieving that data from MBTA. I hope to add the ability to also see available seats."
     },
     {
         repo:"Eyes-movement",
@@ -10,14 +10,19 @@ let projects = [
         desc:"Eyes movement that tracks the user's mouse pointer on the display while using JavaScript to set the web page styles."
     },
     {
+        repo:"Pacman-factory",
+        image:"./assets/img/pacmen factory.gif",
+        desc:"This will create any number of pacman as a factory, then bounce them with an option to change their velocity."
+    },
+    {
         repo:"Ball-factory",
         image:"./assets/img/ball_factory.gif",
-        desc:"3"
+        desc:"This will create any number of balls in different colors, then bounce them within a defined area while taking gravity into consideration."
     },
     {
         repo:"spotify-clone",
-        image:"",
-        desc:"Creating a web clone from scratch by inspecting the websites"
+        image:"./assets/img/Spotify.png",
+        desc:"Creating a web clone from scratch by inspecting the websites design code"
     }
 ];
 
@@ -43,7 +48,12 @@ window.onload = ()=>{
         div.appendChild(cardShadowDiv)
         let cardImg = document.createElement('img')
         cardImg.src = presentImage(projects[i].image)
-        cardShadowDiv.appendChild(cardImg)
+
+        let aImgLink = document.createElement('a')
+        aImgLink.href = demoAddress(projects[i].repo)
+        aImgLink.appendChild(cardImg)
+
+        cardShadowDiv.appendChild(aImgLink)
         let cardBody = document.createElement('div')
         cardBody.classList.add('card-body')
         cardShadowDiv.appendChild(cardBody)
