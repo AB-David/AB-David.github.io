@@ -1,9 +1,22 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
-h2 {
-    color:rgb(129, 57, 129);
-}
+html,body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    background: #222;
+    color: #aaa
+  }
+  
+  h1,h2 {
+    font-weight: 200;
+    margin: 0.4em 0;
+  }
+  h1 { font-size: 3.5em; }
+  h2 {
+    color: #888;
+    font-size: 2em;
+  }
 
 .section-title {
     margin-top: 30px;
@@ -49,8 +62,6 @@ h2 {
         -ms-wrap-flow: both
       }
 
-
-
 .projects-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -76,8 +87,6 @@ h4.capitalize {
     filter: grayscale(100%);
     filter: gray; /* IE 6-9 */
 }
-
-
 
 .card > a> img:hover {
     -webkit-filter: none;
