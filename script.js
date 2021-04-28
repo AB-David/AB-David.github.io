@@ -64,6 +64,11 @@ let projects = [
         repo:"spotify-clone",
         image:"./assets/img/Spotify.png",
         desc:"Creating a web clone from scratch by inspecting the websites design code"
+    },
+        {
+        repo:"To-Do-List",
+        image:"./assets/img/ToDo.png",
+        desc:"Created a styled To-Do list application in React"
     }
 ];
 
