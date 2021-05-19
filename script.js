@@ -69,6 +69,11 @@ let projects = [
         repo:"To-Do-List",
         image:"./assets/img/ToDo.png",
         desc:"Created a styled To-Do list application in React"
+    },
+    {
+        repo:"React-Tic-Tac-Toe",
+        image:"./assets/img/ToDo.png",
+        desc:"Created a Tic Tac Toe game managing multiple states between parent and child components in React" 
     }
 ];
 
