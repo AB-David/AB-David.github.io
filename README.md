@@ -2,3 +2,4 @@
 
 V1 of my portfolio. V2 coming soon with updates to the UI and addtional projects 
 
+Added 2 full stack projects
