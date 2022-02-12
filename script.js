@@ -46,8 +46,13 @@ let projects = [
         desc:"Manipulated maps through asyncronous programming to show in real time the location of a bus in Boston by retrieving that data from MBTA. I hope to add the ability to also see available seats."
     },
     {
-        repo:"Eyes-movement",
+        repo:"Boston-Public-Salaries",
         image:"./assets/img/eyes.png",
+        desc:"Programmatically manipulated a set of public JSON data from the city of Boston, representing Boston employee salaries to find the top income earners in the city."
+    },
+    {
+        repo:"Eyes-movement",
+        image:"./assets/img/json-mapping.png",
         desc:"Eyes movement that tracks the user's mouse pointer on the display while using JavaScript to set the web page styles."
     },
     {
