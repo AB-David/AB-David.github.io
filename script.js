@@ -47,12 +47,12 @@ let projects = [
     },
     {
         repo:"Boston-Public-Salaries",
-        image:"./assets/img/eyes.png",
+        image:"./assets/img/json-mapping.png",
         desc:"Programmatically manipulated a set of public JSON data from the city of Boston, representing Boston employee salaries to find the top income earners in the city."
     },
     {
         repo:"Eyes-movement",
-        image:"./assets/img/json-mapping.png",
+        image:"./assets/img/eyes.png",
         desc:"Eyes movement that tracks the user's mouse pointer on the display while using JavaScript to set the web page styles."
     },
     {
