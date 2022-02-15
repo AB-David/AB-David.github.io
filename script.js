@@ -51,6 +51,11 @@ let projects = [
         desc:"Programmatically manipulated a set of public JSON data from the city of Boston, representing Boston employee salaries to find the top income earners in the city."
     },
     {
+        repo:"City-Of-Chicago-Salaries",
+        image:"./assets/img/Denoise Data.jpeg",
+        desc:"Denoising salary Data by sort visualization a set of public JSON data from the city of Chicago, representing City of Chicago employee salaries to find the earners distribution in the city."
+    },
+    {
         repo:"Eyes-movement",
         image:"./assets/img/eyes.png",
         desc:"Eyes movement that tracks the user's mouse pointer on the display while using JavaScript to set the web page styles."
